@@ -1,0 +1,24 @@
+.container{
+    height: 700px;
+    width: 500px;
+    background-color: blueviolet;
+    display:grid;
+    border:1px solid black;
+    grid-gap:10px;
+    grid-template-rows:100px 100px 100px ;
+    grid-template-columns:200px 200px;
+/*justify-content: center;  justify-content: end;justify-content: space-around;  /*grid-template-areas:
+
+"hd hd"
+"side con"
+"ft ft";*/place-content: center;
+
+}
+.box{
+    border:1px solid balck;
+    background-color: aqua;
+}
+/*#header{
+    /*align-self: start;
+    justify-self: start; 
+}

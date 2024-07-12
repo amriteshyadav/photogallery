@@ -1,0 +1,40 @@
+.container
+{
+    height:600px;
+    width:600px;
+    background-color:aquamarine;
+}
+.box
+{
+    height:200px;
+    width:200px;
+    background-color:chartreuse;
+    animation-name:amritesh;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-delay:1s;
+    animation-direction: reverse;
+}
+/*@keyframes amritesh{
+    from{
+width:0px;
+    }
+    to{
+width:600px;
+    }
+}*/
+@keyframes amritesh{
+    0%{
+        width:100px;
+        background-color:brown;
+    }
+    40%{
+        width:35%;
+        background-color:chartreuse;
+    }
+    100%{
+        width:70%;
+        background-color:chocolate;
+    }
+}

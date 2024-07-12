@@ -1,0 +1,29 @@
+*{
+    PADDING:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.wrapper{
+    height:100vh;
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.oval
+{width:160px;
+height:50px;
+ padding:20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(165, 208, 223);  
+ border-radius: 40%;
+ background-image: linear-gradient(to top ,rgb(75, 167, 204),rgb(208, 233, 238));
+ transition:all 0.5s;
+}
+.oval:hover{
+background-image:linear-gradient(to top, rgba(146, 69, 10, 0.91),rgb(216, 207, 47)) ;
+    transform: scale(1.2);
+    box-shadow: 2px 5px darkred;
+}

@@ -1,0 +1,16 @@
+.container{
+    height:500px;
+    width:500px;
+    background-color:blueviolet;
+    }
+    .box{
+        height:200px;
+        width:100px;
+        background-color:brown;
+        transition:all 2s ease;
+    }
+    .box:hover{
+       /* background-color:cadetblue;
+        transform:rotate(45deg);*/
+        transform:translateX(500px) rotate(360deg) scale(2);
+    }

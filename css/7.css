@@ -1,0 +1,14 @@
+div{
+     display:inline-block;
+    height:100px;
+    width: 120px;
+    border:1px  solid black;
+    background-color:tomato;
+    
+
+}
+#box2{
+
+    position:relative;
+    top:100px;
+}

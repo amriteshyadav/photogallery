@@ -1,0 +1,22 @@
+/*:root{
+    --color-brown:#9991ac;
+    }*/
+
+*{
+    --color-red:#981a2c;
+}
+
+.container{
+    border:2px solid black;
+    background-color:  green;
+    height:500px;
+    width:400px;
+    background-color:var(--color-red);
+    background-color:var(--color-brown);
+}
+.box{
+    border:2px solid yellow;
+    height:100px;
+    background-color:rgb(97, 42, 165);
+  background-color:var(--color-red);
+}

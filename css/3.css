@@ -1,0 +1,23 @@
+/*.box{
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    background-image:linear-gradient(red,blue);
+    background-image:linear-gradient(to right, red,blue)
+}
+.mydiv{
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    margin:10px;
+    background-image:radial-gradient(red,blue);
+}*/
+.box{
+    background-position: center;
+    background: repeating-conic-gradient(
+  from 3deg at 25% 25%,
+  hsl(200, 100%, 50%) 0deg 15deg,
+  hsl(132, 100%, 60%) 10deg 30deg
+  
+)
+}

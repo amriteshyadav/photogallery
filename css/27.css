@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100vh;
+    background-color: aliceblue;
+    display:grid;
+    justify-content:center ;
+    align-content: center;
+    z-index:1;
+    
+    }
+    .box{
+    padding: 10px;
+        background-color:brown;
+        color:white;
+       box-shadow: 0 0 12px rgb(67, 65, 65);
+       position:relative;
+       z-index:1;
+        }
+        .box::before{
+            content:"";
+            background-color:black;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            transform-origin:right;
+            transform:scaleX(0); 
+            transition:all 1s ease;
+            z-index:-1;
+        }
+    .box:hover::before{
+     transform:scaleX(1);
+     ;
+    }
+    
